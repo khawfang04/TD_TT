@@ -1,0 +1,11 @@
+source:
+  source_file: tawanlowertab1.txt
+  input_path: E:\PyProj\TD_TT\Q2\source
+  output_path: E:\PyProj\TD_TT\Q2\output
+
+transform:
+  - lowercase
+  - whitespace
+
+stat_type:
+  - alphabet_count
